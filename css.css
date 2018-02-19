@@ -79,7 +79,7 @@
        
                 body {
                     background: url(images/cover_gallery.jpg);
-                    background-size: 100% 100%;
+                    background-size: cover;
                     background-repeat: no-repeat;
                     
                     
