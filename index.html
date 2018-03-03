@@ -1,87 +1,284 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Barrio" rel="stylesheet"> <!-- add google fonts-->
-        <link rel="stylesheet" type="text/css" href="css.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- add bootstrap library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>             <!-- add jQuery library -->
-       	 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />	<!-- add a favicon-->
-        <title>
-            Nostissimo
-        </title>
-        
-        
-    </head>
-    
-    
-    <body> 
-       <header>
-        
-        <nav id="nav_bar">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Stefany Raileanu - Web developer</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/favicon.png" rel="icon" type="image/png" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+						<a href="index.html#service"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+			
+		  <!-- Header Image -->
+		  
+          <section class="hero" id="hero">
             
-            <ul id="website_menu">
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="gallery.html">Gallery</a></li>
-                 <li><a href="menu.html">Menu</a></li>
-                 <li><a href="offers.html">Offers</a></li>
-            </ul>
-            
-        </nav>
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown" id="h1name">
+                    Stefany<br/>
+                    <span>Raileanu</span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Developer</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+			  <div class="row" id="bottom-fixed">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p id="seemore">SEE MORE</p>
+			            <p id ="arrow" class="scrollto--arrow"><img src="img/scroll-down_black.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+             
+          </section>
+		  
+		  <!-- Header Image End -->
         </header>
-        <div id="cover">
-            <div id="home" class="text-center">
-        
-                <h1>WELCOME!</h1>
-                <p>"Γεύσεις του Κόσμου" – tastes of the world is what Nostissimo offers and all at reasonable prices. From noon until the evening, delicious starters, tasty main courses, delightful sweets, enjoyable wines and fresh beers are served– and in our homey café-bistro from the early morning hours on we offer a small breakfast, fresh cakes and pastries and prime Hausbrandt coffee, as well as aromatic loose tea selections. Here you can take a look at <a href="menu.html">our menu</a>. </p>
-                
-                 
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">About myself</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>It all started during my teenage years when I made a tumblr blog and I learned how to play around with CSS. In 2016, I switched to a Computer Science Major and I started learning Web development on a more advanced level. Since then, I've been working on Front End Projects and continuously been improving my web development skills.</p>
+              </div>
             </div>
-            <footer class="container-fluid footer_brown">
-                 
-                 <div class="row">
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="map.html">Where to find us</a>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="book.html">Book a table</a>
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-               
-                 </div>
-                  
-                 <div class="row">
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="press.html">Press page</a>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="contact_us.html">Contact us</a>
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-               
-                 </div>
-                
-                 <div class="row">
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="special.html">Special events</a>
-                     <a class="col-lg-3 col-md-3 col-sm-3" href="review.html">Customers reviews</a>
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-               
-                 </div>
-                <div class="row">
-                     <div class="col-lg-3 col-md-3 col-sm-4"></div>
-                    <div class="col-lg-3 col-md-3">Us on Facebook<a href="https://el-gr.facebook.com/nostissimo/" target="_blank"> <img src="images/facebook.png" alt="Facebook logo."> </a></div>
-                    <div class="col-lg-3 col-md-3 col-sm-2"></div>
-                     <div class="col-lg-3 col-md-3 col-sm-3"></div>
-                     
-                 </div>
-                
-                <div class="row" id="copyright_home">
-                     <div class="col-lg-3"></div>
-                    <div class="col-lg-6 text-center">Copyright © 2015 Nostissimo EPE - All rights reserved.</div>
-                     <div class="col-lg-3"></div>
-                     
-                 </div>
-                
-            </footer>
+          </div>
+        </section>
+
+
+
+
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">These are some of my latest projects</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- First project -->
+                  <div class="col-md-4 wp2 item">
+                    <a href="https://stefanyrl.github.io/nostissimo/" target="_blank"><img  src="img/nostissimo.png" style="width:240px;height:160px;"></img></a>
+                    <h2>Restaurant website</h2><!-- Title -->
+                    <p>A website for a Greek restaurant that I have developed as part of my Web Development course in college.<br>(HTML,CSS3, Bootstrap, JavaScript, jQuery, PHP)</p><!-- Description -->
+                  </div>
+          <!-- Second project -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <a href="https://stefanyrl.github.io/weather/" target="_blank"><img src="img/wapp.png" style="width:240px;height:160px;"></img></a>
+                    <h2>Weather App</h2><!-- Title -->
+                   <p>This app automatically detects the location and shows the weather data to the user. I have developed this project as part of the FreeCodeCamp curriculum.<br>(HTML, CSS, Bootstrap, JavaScript, jQuery, JSON APIs)</p><!-- Description -->
+                  </div>
+          <!-- Third project -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <a href="https://stefanyrl.github.io/art_pixel/" target="_blank"><img src="img/art_pixel.png" style="width:240px;height:160px;"></img></a>
+                    <h2>Art pixel</h2><!-- Title -->
+                    <p>An app that allows the user to create pixel art on a customizable canvas. I have developed it as part of my Google Developer Challenge Scholarship course.<br>(HTML,CSS, JavaScript, jQuery)</p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+		
+
+
+			
+		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div class="spacer-cta text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <a href="index.html#contact" class="outline-btn">hire stefany raileanu</a>
+              </div>
+            </div>
+          </div>
         </div>
-      
-        
+		<!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+		
+		
+        	
+		
+		
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Contact me</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- LinkedIn-->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-linkedin"></i><span><a href="https://www.linkedin.com/in/stefany-raileanu-40ab09a6/" target="_blank">LinkedIn</a></span></h2>
+                </div>
+              </div>
+			  <!-- Facebook -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-github"></i><span><a href="https://github.com/stefanyrl" target="_blank">Github</a></span></h2>
+                  
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-envelope"></i><span>raileanu_stefany@yahoo.com</span></h2>
+                  
+                </div>
+              </div>
+            </div>
+			<br>
+			
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>All Rights Reserved. &copy; 2018 </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+	
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
     </body>
 </html>
-
-
