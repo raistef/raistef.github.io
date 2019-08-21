@@ -348,13 +348,13 @@ table {
 }
 /* Menu Button */
 .menu-button {
-	z-index:1000;
-	margin:0;
-	padding:0;
-	border:none;
-	text-indent:2.5em;
-	color:transparent;
-	background:#af9199;
+	z-index: 1000;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-indent: 2.5em;
+	color: transparent;
+	background: #c4b7ae;
 }
 .menu-button::before {
 	position:absolute;
@@ -447,12 +447,11 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/portrait.jpg') right bottom no-repeat;
-	background-color:#af9199;
+	background-color: #c4b7ae;
 	background-size: contain;
-	padding:0px 0 100px 0;
-	height:100vh;
-	width:100%
-	position:relative;
+	padding: 0px 0 100px 0;
+	height: 100vh;
+	width: 100% position:relative;
 }
 
 #bottom-fixed {
@@ -472,7 +471,8 @@ table {
 	
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:black;
+	/*color:#a1a9b0;*/
 	/* display:inline-block; */
 }
 .hero h3 {
