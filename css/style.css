@@ -455,10 +455,13 @@ table {
 }
 
 #bottom-fixed {
-	position:absolute;
+	/*position:absolute;
 	bottom:10px;
 	left:40%;
-	right:40%;
+	right:40%;*/
+	position: absolute;
+	bottom: -15px;
+	right:50%;
 }
 
 .hero h1 {
